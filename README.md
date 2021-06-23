@@ -24,7 +24,7 @@ Laragon , Wamp, Xampp
 Apache
 
 Clonar repo
-Ir a la url :
+Ir a la url : https://github.com/Semi-dios/apiArtemisa
 Abrir una consola de git y en la carpeta raiz del entorno de desarrollo digitar git clone + url
 Instale dependencias digitando npm i y/o npm u
 
