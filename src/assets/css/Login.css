@@ -1,0 +1,82 @@
+#viewLogin {
+  background-color: #f5f5f5;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-block {
+  background: #fffffF;
+  padding: 50px 0;
+  height: auto;
+  width: 100%;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.35);
+-moz-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.35);
+box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.35);
+}
+
+
+.logo {
+  width: 150px;
+  height: auto;
+  object-fit: cover;
+  margin: auto;
+}
+
+.login-sec {
+  padding: 50px 30px;
+  position: relative;
+
+
+}
+.login-sec .copy-text {
+  position: absolute;
+  width: 80%;
+  bottom: 20px;
+  font-size: 13px;
+  text-align: center;
+}
+.login-sec .copy-text i {
+  color: #feb58a;
+}
+.login-sec .copy-text a {
+  color: #e36262;
+}
+.login-sec h2 {
+  margin-bottom: 30px;
+  font-weight: 800;
+  font-size: 30px;
+  color: #de6262;
+}
+.login-sec h2:after {
+  content: " ";
+  width: 100px;
+  height: 5px;
+  background: #feb58a;
+  display: block;
+  margin-top: 20px;
+  border-radius: 3px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.btn-login {
+  background: #de6262;
+  color: #fff;
+  font-weight: 600;
+
+
+}
+
+.btn-login:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.25);
+  -moz-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.25);
+  box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.25);
+
+}
+
